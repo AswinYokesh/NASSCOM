@@ -539,3 +539,17 @@ Yield: The percentage of chips that pass the tests. A high yield indicates an ef
 Testing Time: The time it takes to test each chip. Reducing this time lowers manufacturing costs.
 
 Test Coverage: The percentage of potential faults that are detected by the tests. High test coverage ensures that very few defective chips make it to the customer.
+
+<img width="1920" height="1080" alt="Screenshot 2025-08-24 233219" src="https://github.com/user-attachments/assets/f94b00c4-1b31-4d84-8400-9b09ce6a3cef" />
+
+<img width="1920" height="1080" alt="Screenshot 2025-08-24 234022" src="https://github.com/user-attachments/assets/b2339141-41cd-45f8-92a2-e42bd3d706f3" />
+The Steps to Create a 3D Model
+Define the Project: First, you open a new project in a software like Ansys Electronics Desktop. You set up the basic parameters, such as the units of measurement (e.g., millimeters or micrometers).
+
+Model the Layers: The package is built layer by layer, from the bottom up. You start with the largest component, the substrate (also called the carrier or laminate). You draw its shape (a rectangle in this case) and define its material properties.
+
+Add the Chip (Die): Next, you add the most important component: the silicon die itself. You create a new shape, usually a smaller rectangle, and place it on top of the substrate. You define its material as silicon and set its dimensions.
+
+Incorporate Connections: Depending on the package type, you would then add the connections. For a wire bond package, you would create and route tiny lines representing the gold or copper wires. For a flip-chip package, you would define the location of the solder bumps.
+
+Create the Mold: The final structural piece is the mold compound. You draw a larger shape that completely covers the die and its connections. This layer represents the protective plastic or epoxy shell of the package.
