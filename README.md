@@ -1,5 +1,5 @@
 # NASSCOM
-Semicondutor Packaging and Testing
+**Semicondutor Packaging and Testing**
 
 
 <img width="1920" height="1080" alt="Screenshot 2025-08-22 203925" src="https://github.com/user-attachments/assets/3a33d847-b9a0-4415-b460-8737f4bf06c3" />
