@@ -1,7 +1,6 @@
 # NASSCOM
 
 
-
 **Semicondutor Packaging and Testing**
 
 
@@ -424,6 +423,34 @@ Solving: The solver computes the temperature distribution throughout your model 
 Results Visualization: After the simulation is complete, you can visualize the results. The screenshot shows a temperature contour plot on the surface of your component. This plot uses a color scale to represent temperature values. The red areas are the hottest, while the blue areas are the coolest. This is a powerful visual tool for identifying hotspots and understanding the thermal performance of your design.
 
 Reports and Plots: Ansys Icepak allows you to generate various reports and plots to analyze your results quantitatively. This includes tables of component temperatures, fan flow rates, and pressure drops. You can also create cut planes and isosurfaces to visualize the temperature and flow fields inside the model.
+
+Detailed Steps are as follows,
+<img width="1920" height="1080" alt="M3_01" src="https://github.com/user-attachments/assets/f0b6c91a-77d7-483e-ad18-fa77ec8a78a4" />
+<img width="1920" height="1080" alt="M3_02" src="https://github.com/user-attachments/assets/ea2b2832-592a-40dc-b495-d20057199a03" />
+<img width="1920" height="1080" alt="M3_03" src="https://github.com/user-attachments/assets/97c38a87-c66b-48fc-8672-b8305058801e" />
+<img width="1920" height="1080" alt="M3_04" src="https://github.com/user-attachments/assets/d49411aa-51ad-4d85-a4de-aa8cadf867ef" />
+<img width="1920" height="1080" alt="M3_05" src="https://github.com/user-attachments/assets/5fa6e3d5-2825-4b66-aaa6-4618ef2885cf" />
+<img width="1920" height="1080" alt="M3_06" src="https://github.com/user-attachments/assets/60371dfc-1e92-4dc6-9d8e-acec0304061a" />
+<img width="1920" height="1080" alt="M3_07" src="https://github.com/user-attachments/assets/e20b0bfa-c367-4de1-82c1-a55b443c4da6" />
+<img width="1920" height="1080" alt="M3_08" src="https://github.com/user-attachments/assets/645516ce-cb0a-4a6d-b997-5f7aa34d92aa" />
+<img width="1920" height="1080" alt="M3_09" src="https://github.com/user-attachments/assets/2ef98a53-2b7e-4867-bb30-34b1bfbc22b4" />
+<img width="1920" height="1080" alt="M3_10" src="https://github.com/user-attachments/assets/97716f5b-fb48-42f2-b052-4a607a48bc12" />
+<img width="1920" height="1080" alt="M3_11" src="https://github.com/user-attachments/assets/48739808-bf49-41a6-b553-de7b9864298b" />
+<img width="1920" height="1080" alt="M3_12" src="https://github.com/user-attachments/assets/de08125b-dfb1-41de-9d9f-8101af519112" />
+<img width="1920" height="1080" alt="M3_13" src="https://github.com/user-attachments/assets/0e62e2d9-a826-441d-9325-c353ac12cd59" />
+<img width="1920" height="1080" alt="M3_14" src="https://github.com/user-attachments/assets/0fa7c154-e9bf-4d2a-b4f9-2bddf70f5dbe" />
+<img width="1920" height="1080" alt="M3_15" src="https://github.com/user-attachments/assets/6d2551b3-4659-4396-ae09-1fd4d4ea627b" />
+
+<img width="1920" height="1080" alt="M3_16" src="https://github.com/user-attachments/assets/688aefaf-8539-4160-9622-5f077e2843cb" />
+<img width="1920" height="1080" alt="M3_17" src="https://github.com/user-attachments/assets/560ac371-4bd4-489f-aa62-e7a61aa0e1f3" />
+<img width="1920" height="1080" alt="M3_18" src="https://github.com/user-attachments/assets/b2ff2f30-11a7-4918-a2e5-6b7de66007e9" />
+<img width="1920" height="1080" alt="M3_19" src="https://github.com/user-attachments/assets/04610717-5583-440c-924c-43ab9c8a9870" />
+<img width="1920" height="1080" alt="M3_20" src="https://github.com/user-attachments/assets/1e804a50-9a4f-44b6-aa3f-5710702ee1fc" />
+<img width="1920" height="1080" alt="M3_21" src="https://github.com/user-attachments/assets/ee3404f7-efef-4034-8a07-eec055a55dd2" />
+<img width="1920" height="1080" alt="M3_22" src="https://github.com/user-attachments/assets/022ef3fc-3aaf-4067-8d71-fffdd7fabb83" />
+<img width="1920" height="1080" alt="M3_23" src="https://github.com/user-attachments/assets/aa2187fa-beea-41ed-9e01-7803c2f3561d" />
+
+
 <img width="1920" height="1080" alt="Screenshot 2025-08-24 111330" src="https://github.com/user-attachments/assets/7ae2498c-6327-42c7-90fe-281c1ba96906" />
 Foundry Testing
 Front End Manufacturing: This is the initial stage where the chips are fabricated on a silicon wafer. Quality checks are embedded throughout this process, from raw materials to lithography.
@@ -606,6 +633,49 @@ ESD & Latch-Up Test: Testing for protection against electrostatic discharge and 
 <img width="1920" height="1080" alt="Screenshot 2025-08-24 233219" src="https://github.com/user-attachments/assets/f94b00c4-1b31-4d84-8400-9b09ce6a3cef" />
 
 <img width="1920" height="1080" alt="Screenshot 2025-08-24 234022" src="https://github.com/user-attachments/assets/b2339141-41cd-45f8-92a2-e42bd3d706f3" />
+
+
+Detailed Procedure is given below,
+<img width="1920" height="1080" alt="M5_01" src="https://github.com/user-attachments/assets/b0907308-7ca0-491c-b763-bc882d5a40d3" />
+
+ <img width="1920" height="1080" alt="M5_02" src="https://github.com/user-attachments/assets/67a9eb73-1a61-4929-83a9-da2357e2727f" />
+
+<img width="1920" height="1080" alt="M5_03" src="https://github.com/user-attachments/assets/d1ddca32-fa28-4362-8546-d17f0977557f" />
+
+<img width="1920" height="1080" alt="M5_04" src="https://github.com/user-attachments/assets/49368de6-afef-4716-b8ff-b69e455da7f0" />
+
+<img width="1920" height="1080" alt="M5_05" src="https://github.com/user-attachments/assets/ca0930fc-9d85-4eae-af7a-73a039a495fe" />
+
+<img width="1920" height="1080" alt="M5_06" src="https://github.com/user-attachments/assets/bfea1a0d-c784-4540-80f1-f737dc2d83c9" />
+
+<img width="1920" height="1080" alt="M5_07" src="https://github.com/user-attachments/assets/aa6164ab-72e2-449f-ae7a-5946c4b69dda" />
+
+<img width="1920" height="1080" alt="M5_08" src="https://github.com/user-attachments/assets/fb036238-e231-4f14-9d53-ce902bd830ca" />
+
+<img width="1920" height="1080" alt="M5_09" src="https://github.com/user-attachments/assets/d71b06ef-0f4f-4fb4-907f-a204d605ca6e" />
+
+<img width="1920" height="1080" alt="M5_10" src="https://github.com/user-attachments/assets/79e218e2-1543-40aa-8288-1aacde2a4d57" />
+
+<img width="1920" height="1080" alt="M5_11" src="https://github.com/user-attachments/assets/0a5cc173-1f02-4c2c-ab47-d47417e7575e" />
+
+<img width="1920" height="1080" alt="M5_12" src="https://github.com/user-attachments/assets/29bfe6e8-f82e-4dbc-a121-1a318a84bea4" />
+
+<img width="1920" height="1080" alt="M5_13" src="https://github.com/user-attachments/assets/473a4234-8745-4a55-9925-2ddf11267cb9" />
+
+<img width="1920" height="1080" alt="M5_14" src="https://github.com/user-attachments/assets/3c63885f-1ab5-403a-aea1-58dbb23cdd32" />
+
+<img width="1920" height="1080" alt="M5_15" src="https://github.com/user-attachments/assets/73dadd2e-c826-4a5d-9e11-14aa05c7ef91" />
+
+<img width="1920" height="1080" alt="M5_16" src="https://github.com/user-attachments/assets/e5bec8fc-1229-499b-9e86-b92da4f9d030" />
+
+<img width="1920" height="1080" alt="M5_17" src="https://github.com/user-attachments/assets/521044bb-4bed-43b8-878b-6c2d80cd0218" />
+
+ <img width="1920" height="1080" alt="M5_18" src="https://github.com/user-attachments/assets/b766a3ce-674e-42b0-bbe1-3f1561a75e2b" />
+
+<img width="1920" height="1080" alt="M5_19" src="https://github.com/user-attachments/assets/293eb1a6-ba1e-432a-8438-3d01870ddd04" />
+
+<img width="1920" height="1080" alt="M5_20" src="https://github.com/user-attachments/assets/83911f0d-afc5-4787-91b3-64e8f678e6e7" />
+
 The Steps to Create a 3D Model
 Define the Project: First, you open a new project in a software like Ansys Electronics Desktop. You set up the basic parameters, such as the units of measurement (e.g., millimeters or micrometers).
 
