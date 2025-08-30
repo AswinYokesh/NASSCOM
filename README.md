@@ -1,4 +1,4 @@
- **NASSCOM******
+ **NASSCOM**
 
 
 **Semicondutor Packaging and Testing**
