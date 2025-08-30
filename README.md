@@ -1,4 +1,7 @@
 # NASSCOM
+
+
+
 **Semicondutor Packaging and Testing**
 
 
@@ -539,6 +542,66 @@ Yield: The percentage of chips that pass the tests. A high yield indicates an ef
 Testing Time: The time it takes to test each chip. Reducing this time lowers manufacturing costs.
 
 Test Coverage: The percentage of potential faults that are detected by the tests. High test coverage ensures that very few defective chips make it to the customer.
+
+Review of Package Testing and Electrical Functionality Testing
+
+●	Integrated Circuits (ICs) are subjected to rigorous testing at multiple steps in the manufacturing flow to make sure they have sufficient performance, reliability, and functionality.
+●	The testing activity is completed both at the semiconductor foundry and in OSAT facilities. 
+●	In this phase, high tasks such as thermal cycling, drop tests, continuity, and accelerated life testing are made.
+●	On identifying the failure mode we can improve both materials and design for IC compliance to product, industry, and customer expectations.
+Testing stages
+1.	Foundry Testing Stages:
+Foundry-level tests are critical in the production of semiconductors, verifying that both wafers and discrete dies meet stringent specification and performance objectives prior to packaging and post processing steps. 
+
+Major stages of this process include checks at early stages of manufacturing and wafer probe testing.
+
+2.	OSAT Testing Stages:
+Wafer Sawing: This entails cutting individual dies off of the fabricated wafer using precision cutting techniques.
+
+Die Attach: This step is where the die attaches to a substrate or package using adhesive or solder-based materials.
+
+Wire Bonding/Flip-Chip: This step creates the electrical interconnects between the package and die by wire bonds or solder bumps.
+
+Encapsulation: This step is to mold the package so that the die is protected from physical and environmental damage.
+
+Pre-Test Inspection: This step is to visually or through automated means detect any semi-relevant defects before any electrical testing takes place.
+
+Electrical Testing: This is when electrical tests are done to validate the electrical integrity and performance through power and signal testing.
+
+Burn-In Testing: This step involves heating the package under higher temperatures and voltages to force latent defects that would not expose themselves with more restrictive tolerances.
+
+Final Inspection: This step ensures accurate labeling processes and confirms that the finished products are compliant and match the required quality level.
+
+Packing & Shipping:  This step places the chips into their final packaging for shipment to customers.
+
+System Level Testing (SLT)
+System Level Testing reproduces actual operating conditions for Integrated Circuits (ICs) by checking how each device performs while running real software or firmware, mimicking the real-world conditions in which it would be deployed. 
+There are several functional segments of SLT including initial packaging under some cleanroom controls and thorough functional validation. 
+Some areas of focus include Assembly Open and Short Test (AOST), which tests for open and short circuits on the package boards and is performed with test sockets included.
+
+Reliability and Performance Testing
+Reliability screening like Burn-In Test accelerates the end of life of the devices by holding them at high temperatures and voltages for extended periods of time.
+This exposes early-life failures and highlights possible weak areas in the ICs. Devices which can survive these tests are sent into production, so clients are assured that they are going to receive good and healthy quality devices.
+
+Final Test is done to ensure that each IC meets all operating requirements and specifications before they leave the factory. This is potentially the last control measure before product distribution.
+
+Automated Test Equipment (ATE) and Test Types
+
+
+Wafer Sort: Finding the functional dies on a wafer. 
+
+Parametric Test: Measuring important electrical parameters (voltage and current). 
+
+Burn-In Test: Accelerating failure modes as a result of creating stress conditions. 
+
+Functional Test: Checking that the chip works correctly. 
+
+Speed Binning: Sorting chips based on performance capability. 
+
+Environmental Screening: Putting chips through stress conditions that might occur in the real world, i.e. temperature and humidity. 
+
+ESD & Latch-Up Test: Testing for protection against electrostatic discharge and latch-up problems.
+
 
 <img width="1920" height="1080" alt="Screenshot 2025-08-24 233219" src="https://github.com/user-attachments/assets/f94b00c4-1b31-4d84-8400-9b09ce6a3cef" />
 
