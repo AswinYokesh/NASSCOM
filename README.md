@@ -1,4 +1,4 @@
-# NASSCOM
+<img width="1920" height="1080" alt="M3_23" src="https://github.com/user-attachments/assets/ae70cd8f-95aa-4f88-ab03-ab71a2e616a8" /><img width="1920" height="1080" alt="M3_23" src="https://github.com/user-attachments/assets/2d681eea-bf9a-41f5-9927-c1b9076547d0" /># NASSCOM
 
 
 **Semicondutor Packaging and Testing**
@@ -12,7 +12,7 @@ Semiconductor packaging is a crucial process in the electronics industry that tr
 Why Packaging is Essential
 The primary purpose of semiconductor packaging is to fulfill two critical requirements: protection and connection.
 
-1. Protection of the Die
+**1. Protection of the Die**
 A bare semiconductor die, fresh from the foundry, is extremely fragile. It's a tiny, intricate piece of silicon with microscopic circuits that are vulnerable to environmental factors. Packaging provides a protective enclosure that shields the die from:
 
 Corrosion: The die's metal traces and pads can oxidize or corrode when exposed to moisture and air. The package provides a hermetic or near-hermetic seal.
@@ -23,7 +23,7 @@ Physical Damage: The die is brittle and can easily crack or scratch. The package
 
 The image shows a bare die being transferred from a foundry, such as TSMC or Samsung, and then being enclosed within a package. This molding compound is a key part of the protective layer.
 
-2. Connection to the Outside World
+**2. Connection to the Outside World**
 A bare die has no easy way to connect to a printed circuit board (PCB) or other components. The connections on the die are minuscule. Packaging provides a way to scale up these connections, making them manageable for assembly. The package facilitates the following:
 
 Wire Bonds: As illustrated in the BGA (Ball Grid Array) package example, tiny wire bonds connect the die's pads to the package's internal leads. This is a common method for creating electrical pathways.
@@ -38,13 +38,13 @@ In essence, semiconductor packaging is a sophisticated engineering discipline th
 
 <img width="1920" height="1080" alt="Screenshot 2025-08-22 204546" src="https://github.com/user-attachments/assets/7fe210e0-bf85-4142-b6cb-b21182d46967" />
 
-1. The Idea & Design Phase
+**1. The Idea & Design Phase**
 Imagine you have a great idea for a new computer chip, like one for a super-fast smartphone. You're a "Fabless" company like Apple or Nvidia. You're not a factory; you're the designer. Your team draws up the detailed blueprint and sends it to a specialized factory.
 
-2. The Factory Phase
+**2. The Factory Phase**
 Next, the blueprint goes to a Foundry like TSMC. This is a massive factory that specializes in one thing: turning a digital design into a physical chip. They take large, round silicon wafers and use incredibly precise machines to "print" or etch billions of tiny circuits onto them, creating hundreds or thousands of identical chips on a single wafer.
 
-3. The "Finishing" Phase
+**3. The "Finishing" Phase**
 Once the chips are made on the wafer, they're still raw and fragile. This is where the Packaging & Testing companies (often called OSAT companies) come in.
 
 First, they test the raw chips on the wafer to make sure they all work. Any bad ones are marked and discarded.
@@ -53,7 +53,7 @@ Then, they "package" the good chips. This is like putting a tiny, fragile brain 
 
 Finally, they test the chips again after they've been packaged to make sure they're still working perfectly. This is a quality check before they are sent out.
 
-4. The Final Assembly Phase
+**4. The Final Assembly Phase**
 The packaged and tested chips are then shipped to companies that build finished products, like a phone manufacturer. They take the chip, along with many others, and solder it onto a circuit board (the green board inside a phone or computer). This completes the device, and it's now ready to be sold to you.
 
 So, in simple terms: Designers create the idea, Foundries manufacture the chips, OSAT companies protect and prepare them, and Device Manufacturers put them into a final product.
@@ -62,17 +62,17 @@ So, in simple terms: Designers create the idea, Foundries manufacture the chips,
 
 Think of the Silicon Lifecycle as the journey of a computer chip from an idea to its use in a real product.
 
-Product Requirements: It all starts with an idea: "What kind of chip do we need to build?" This is the starting point for a new product, like a faster processor for a new phone.
+**Product Requirements**: It all starts with an idea: "What kind of chip do we need to build?" This is the starting point for a new product, like a faster processor for a new phone.
 
-Design: Engineers create the detailed blueprint for the chip. This is the intellectual work of designing the tiny circuits.
+**Design**: Engineers create the detailed blueprint for the chip. This is the intellectual work of designing the tiny circuits.
 
-Manufacturing: The blueprint is sent to a factory to physically build the chip on a silicon wafer.
+**Manufacturing**: The blueprint is sent to a factory to physically build the chip on a silicon wafer.
 
-Test: The chips are checked to make sure they work correctly. Any faulty chips are discarded.
+**Test**: The chips are checked to make sure they work correctly. Any faulty chips are discarded.
 
-Debug/Bring-up: The first manufactured chips are thoroughly tested and "brought to life" to find and fix any last-minute issues.
+**Debug/Bring-up**: The first manufactured chips are thoroughly tested and "brought to life" to find and fix any last-minute issues.
 
-In-Field Operation: The finished, working chips are packaged and put into electronic devices, like a smartphone or a laptop, which are then used by people.
+**In-Field Operation**: The finished, working chips are packaged and put into electronic devices, like a smartphone or a laptop, which are then used by people.
 
 <img width="1920" height="1080" alt="Screenshot 2025-08-22 205053" src="https://github.com/user-attachments/assets/ec6189d6-fd0e-4f77-a322-7dc140c5fb80" />
 Application: What is the chip's job? Is it a super-fast processor, a simple memory chip, or a power controller?
@@ -96,50 +96,50 @@ Based on the provided image, here's a detailed explanation of typical semiconduc
 Typical Package Structure
 The top part of the slide illustrates the basic layers of a typical semiconductor package, acting as a bridge between the tiny, delicate die and the larger System Board (PCB).
 
-Die: This is the bare silicon chip, the heart of the integrated circuit. It contains all the microscopic transistors and circuitry that perform the chip's function. It's extremely sensitive and fragile.
+**Die**: This is the bare silicon chip, the heart of the integrated circuit. It contains all the microscopic transistors and circuitry that perform the chip's function. It's extremely sensitive and fragile.
 
-Carrier: Also known as the substrate, this is the small circuit board inside the package. It provides the base for the die and contains the internal wiring (Die-to-carrier interconnections) that routes signals from the die to the outside of the package.
+**Carrier:** Also known as the substrate, this is the small circuit board inside the package. It provides the base for the die and contains the internal wiring (Die-to-carrier interconnections) that routes signals from the die to the outside of the package.
 
-Mold Compound: This is the hard plastic or ceramic material that encapsulates the die and carrier. Its primary job is to protect the die from physical damage, moisture, and corrosion. It is the sealed shell of the package.
+**Mold Compound**: This is the hard plastic or ceramic material that encapsulates the die and carrier. Its primary job is to protect the die from physical damage, moisture, and corrosion. It is the sealed shell of the package.
 
-Carrier to Board Interconnections: These are the external connections on the package that allow it to be mounted and electrically connected to the final product's main circuit board. These connections can be pins, solder balls, or pads.
+**Carrier to Board Interconnections**: These are the external connections on the package that allow it to be mounted and electrically connected to the final product's main circuit board. These connections can be pins, solder balls, or pads.
 
-Common Package Types
+C**ommon Package Types**
 The bottom part of the image shows several examples of semiconductor packages, categorized by how they are mounted onto a PCB.
 
-1. Through-hole Mounting
+**1. Through-hole Mounting**
 This older technology involves inserting component leads (pins) through holes in the PCB. The leads are then soldered on the other side. These packages are typically larger and more robust.
 
-DIP (Dual In-line Package): This package has two parallel rows of pins. It's commonly found in older electronics and hobbyist projects. * TO (Transistor Outline): A standard package for transistors and some integrated circuits, often used for power components due to its heat-dissipating metal tab.
+**DIP (Dual In-line Package)**: This package has two parallel rows of pins. It's commonly found in older electronics and hobbyist projects. * TO (Transistor Outline): A standard package for transistors and some integrated circuits, often used for power components due to its heat-dissipating metal tab.
 
-PGA (Pin Grid Array): A package with an array of pins on its underside. It's often used for CPUs and other high-pin-count devices.
+**PGA (Pin Grid Array)**: A package with an array of pins on its underside. It's often used for CPUs and other high-pin-count devices.
 
-2. Surface Mount Technology (SMT)
+**2. Surface Mount Technology (SMT)**
 This is the modern standard, where components are soldered directly onto pads on the surface of the PCB, eliminating the need for through-holes. SMT allows for smaller, more densely packed circuit boards and automated assembly.
 
-QFN (Quad Flat No-lead): A small, square package with no leads extending from the body. Connections are made through pads on the bottom edge.
+**QFN (Quad Flat No-lead)**: A small, square package with no leads extending from the body. Connections are made through pads on the bottom edge.
 
-QFP (Quad Flat Package): Similar to QFN, but with leads extending from all four sides. It's used for microcontrollers and other ICs.
+**QFP (Quad Flat Package)**: Similar to QFN, but with leads extending from all four sides. It's used for microcontrollers and other ICs.
 
-LGA (Land Grid Array): A package with an array of flat pads instead of pins, which make contact with spring-loaded pins on the socket. Used for CPUs like Intel's.
+**LGA (Land Grid Array)**: A package with an array of flat pads instead of pins, which make contact with spring-loaded pins on the socket. Used for CPUs like Intel's.
 
-CSP (Chip Scale Package): A very small package where the size is almost the same as the die itself. It's ideal for small, portable devices like smartphones.
+**CSP (Chip Scale Package)**: A very small package where the size is almost the same as the die itself. It's ideal for small, portable devices like smartphones.
 
-MCM (Multi-Chip Module): A package that contains two or more bare dies inside. This allows different types of chips (e.g., CPU and memory) to be placed close together, improving performance. The Intel Broadwell example shows two dies within one package.
+**MCM (Multi-Chip Module)**: A package that contains two or more bare dies inside. This allows different types of chips (e.g., CPU and memory) to be placed close together, improving performance. The Intel Broadwell example shows two dies within one package.
 
-PoP (Package on Package): A specialized type of SMT where one package is stacked on top of another. This saves space and is often used for stacking memory on top of a processor.
+**PoP (Package on Package)**: A specialized type of SMT where one package is stacked on top of another. This saves space and is often used for stacking memory on top of a processor.
 
-CoWoS (Chip on Wafer on Substrate): An advanced 2.5D packaging technology, like the Nvidia H100 example. It places multiple chips side-by-side on a silicon interposer, which is then mounted on a larger substrate. This technology allows for very high-density interconnections between chips, crucial for high-performance computing and AI accelerators.
+**CoWoS (Chip on Wafer on Substrate)**: An advanced 2.5D packaging technology, like the Nvidia H100 example. It places multiple chips side-by-side on a silicon interposer, which is then mounted on a larger substrate. This technology allows for very high-density interconnections between chips, crucial for high-performance computing and AI accelerators.
 
 <img width="1920" height="1080" alt="Screenshot 2025-08-22 212920" src="https://github.com/user-attachments/assets/a47fc67e-d13a-401c-b7ff-b7c10fe5e0d1" />
-Leadframe-based Packages
+**Leadframe-based Packages**
 This is a traditional and cost-effective packaging method. A leadframe is a thin metal frame that holds the die and provides the electrical connections to the outside world.
 
 DIP (Dual In-line Package): This package uses a leadframe where the die is attached to a central pad. Gold wire bonds connect the die to the leadframe's "fingers," which become the external pins. A plastic mold compound covers the entire assembly.
 
 QFN (Quad Flat No-lead) & QFP (Quad Flat Package): These are more modern, surface-mount versions of leadframe packages. The die is attached to a leadframe, wire-bonded, and then molded. The QFN has exposed pads on the bottom instead of leads, while the QFP has leads extending from the sides. The image shows the internal structure of these, highlighting the leadframe's role.
 
-Laminate Substrate Packages
+**Laminate Substrate Packages**
 In this advanced method, the leadframe is replaced by a multi-layer laminate substrate, which is essentially a small, high-density circuit board. This allows for more complex routing and higher pin counts.
 
 Wire bond PBGA (Plastic Ball Grid Array): The die is wire-bonded to a laminate substrate. The bottom of the substrate has a grid of solder balls that connect to the final circuit board. This is an improvement over leadframe packages, allowing for higher pin counts.
@@ -148,7 +148,7 @@ Flip Chip PBGA: This is a more advanced technique. Instead of wire bonds, tiny s
 
 FC-CSP (Flip Chip-Chip Scale Package) and LGA (Land Grid Array): These are examples of flip-chip technology applied to smaller packages. The LGA, for example, uses an array of flat pads on its underside for connection to a socket on the motherboard, commonly used for CPUs.
 
-Advanced Package Substrates
+**Advanced Package Substrates**
 This category represents the cutting edge of packaging, enabling the integration of multiple chips into a single package.
 
 2D: The simplest form, where a single die is mounted on a standard substrate.
@@ -284,15 +284,15 @@ Areas for material storage, offices, and a warehouse for final products.
 The ATMP process can be done by a chip company itself (like Intel) or by a specialized third-party company called an OSAT. It's a critical step that ensures a raw, fragile chip becomes a reliable component.
 <img width="1920" height="1080" alt="Screenshot 2025-08-23 001237" src="https://github.com/user-attachments/assets/cb081f8f-1600-42be-bf63-c07a954a1d9a" />
 
-1. Wafer Preparation Area (ISO Class 7)
+**1. Wafer Preparation Area (ISO Class 7)**
 The process begins in a highly controlled environment, a clean room, to prevent contamination. The wafer, which is a thin slice of silicon containing hundreds or thousands of identical chips, arrives in a sealed wafer carrier to maintain its pristine condition. The process begins with Wafer Inspection, where an automated optical system scans the wafer to detect any surface defects or imperfections.
 
-2. Wafer Thinning
+**2. Wafer Thinning**
 Wafer Front Tape Lamination: A protective tape is applied to the front (circuit side) of the wafer. This tape shields the delicate circuitry and wire bond pads from damage during the subsequent thinning process. The tape is temporary and will be removed later.
 
 Wafer Backside Grinding: The wafer is then mounted onto a rotating chuck. A grinding wheel thins the wafer from the back, reducing its thickness from several hundred micrometers down to as little as 50 micrometers or even thinner. This is a critical step for modern, compact devices as it allows for smaller, lighter packages and helps improve thermal performance.
 
-3. Wafer Dicing
+**3. Wafer Dicing**
 After thinning, the wafer must be cut into individual chips, also known as dies.
 
 Tape Frame Mounting: A special sticky film, called a dicing tape, is applied to the thinned back of the wafer. This tape is stretched over a metal ring called a tape frame. This frame holds the wafer securely and keeps the individual dies in place after they are cut, preventing them from scattering.
@@ -306,7 +306,7 @@ Second, a thin, diamond-coated blade finishes the cut through the wafer, separat
 Once the wafer is fully diced, the dies are ready to be picked from the tape frame and proceed to the next stage of packaging, such as die attach and wire bonding.
 
 <img width="1920" height="1080" alt="Screenshot 2025-08-23 002215" src="https://github.com/user-attachments/assets/fca5a6e0-af20-4318-b2ff-1a518017c69d" />
-1. Die Attach
+**1. Die Attach**
 After the wafer is cut into individual chips (dies), the first step is to attach each die to the package's substrate or leadframe.
 
 Epoxy Dispense: A small amount of epoxy or die-attach film (DAF) is applied to the substrate.
@@ -315,19 +315,19 @@ Pick the Chip: A vacuum "pick up head" lifts a single die from the wafer.
 
 Place on the Die-Attach Film: The die is precisely placed onto the epoxy or DAF on the substrate. The curing process then uses heat to harden the epoxy, creating a strong bond.
 
-2. Wire Bonding
+**2. Wire Bonding**
 This is the process of creating electrical connections between the die and the package substrate.
 
 A tiny gold or copper wire is fed through a capillary.
 
 The wire is bonded to a pad on the die and then to a pad on the substrate, forming a loop. This process uses a combination of heat, pressure, and ultrasonic energy to create a strong, reliable connection.
 
-3. Molding
+**3. Molding**
 Once the die and wire bonds are in place, they must be protected.
 
 Molding (Transfer): The entire assembly is placed into a mold. A heated liquid plastic resin (the mold compound) is injected into the mold under pressure. The resin flows around the die and wire bonds, encapsulating them completely.
 
-4. Singulation & Marking
+**4. Singulation & Marking**
 Singulation (Dicing Blade): After molding, the packages may still be connected in an array. A diamond-tipped blade is used to cut the packages apart, or "singulate" them, into individual units.
 
 Marking (Laser): Finally, a laser is used to permanently etch the product's name, part number, and other identification codes onto the top of the package.
@@ -339,22 +339,22 @@ This entire sequence of steps ensures the fragile silicon die is transformed int
 
 The image illustrates the process of flip-chip packaging, an advanced method that connects a chip to its package substrate by "flipping" it over and using tiny solder bumps instead of wires.
 
-1. Bump Formation
+**1. Bump Formation**
 The process begins with bump formation on the silicon die. Tiny solder bumps are applied to the chip's pads. These bumps are then heated (reflowed) to create a uniform, spherical shape. This method is superior to traditional wire bonding as it allows for hundreds or thousands of connections in a small area.
 
-2. Die Attachment
+**2. Die Attachment**
 Fluxing Dispensing: A sticky liquid called flux is applied to the pads of the package substrate. This flux cleans the pads and helps the solder bumps make a good connection.
 
 Chip Placement: The flip-chip is literally flipped over and precisely placed onto the substrate, aligning the solder bumps with the fluxed pads.
 
 Solder Reflow: The entire assembly is heated, melting the solder bumps and creating a strong electrical and mechanical connection between the chip and the substrate.
 
-3. Underfill & Curing
+**3. Underfill & Curing**
 Underfill Dispensing: A liquid material called underfill is dispensed into the small gap between the chip and the substrate.
 
 Underfill Cure: The assembly is heated again to cure and harden the underfill. The underfill fills the gap, strengthening the bond, protecting the delicate solder bumps from stress, and improving the chip's reliability.
 
-4. Final Steps
+**4. Final Steps**
 Molding: After underfill, the chip is encapsulated in a protective mold compound to shield it from the environment.
 
 Ball Mounting & Reflow: If it's a BGA (Ball Grid Array) package, solder balls are attached to the bottom of the package and reflowed to create the final connections to the circuit board.
@@ -363,7 +363,7 @@ Marking: Finally, the package is marked with its product information.
 <img width="1920" height="1080" alt="Screenshot 2025-08-24 103720" src="https://github.com/user-attachments/assets/34dafbbe-5c0a-4b59-988e-daf6ef327c1f" />
 An advanced packaging technique performed while the chips are still on the wafer. This method creates a fan-out package, meaning the connections (solder balls) are spread out over a larger area than the chip itself.
 
-Reconstitution Process
+**Reconstitution Process**
 Diced Wafer: The process starts with a diced silicon wafer where the individual chips (dies) have already been cut.
 
 Pick and Place: A robot picks up only the known good dies (chips that passed initial tests) from the diced wafer.
@@ -385,7 +385,7 @@ Solder Ball Attach: Once the RDL is complete, solder balls are placed onto the f
 Marking and Singulation: A laser marks the individual packages on the wafer. A blade then cuts the wafer into individual fan-out wafer level packages.
 
 <img width="1920" height="1080" alt="Screenshot 2025-08-24 221004" src="https://github.com/user-attachments/assets/ce42a9ab-3acf-4236-aef4-a71fd9eaffcc" />
-1. Project Setup and Geometry
+**1. Project Setup and Geometry**
 The first step in any Ansys Icepak analysis is to set up the project and define the geometry of your system. This is done in the "Project Manager" window on the left side of the screen.
 
 Components and Primitives: You'll typically start by importing a CAD model or creating basic geometric primitives (like blocks, cylinders, plates) to represent your components. In your screenshot, you have a solid block with a heat source on top, which could represent a die or a processor, and a heatsink-like structure on the bottom.
@@ -397,14 +397,14 @@ p
 
 Heat Sources: You define the heat sources in your model. This is where you specify the amount of power dissipated by a component, such as a CPU or a resistor. In your image, the red block is likely a heat source, and the model shows the thermal energy flowing from it.
 
-2. Meshing
+**2. Meshing**
 Meshing is the process of dividing the continuous geometry of your model into a finite number of smaller, discrete elements. Ansys Icepak uses a Cartesian (or Hexahedral) mesh, which is very efficient for electronic cooling applications. The quality of your mesh directly impacts the accuracy and convergence of the simulation.
 
 Global Mesh Settings: You set global mesh parameters like the minimum and maximum element sizes. This affects the overall density of the mesh.
 
 Local Meshing Controls: For areas with high thermal gradients or complex geometry (like the fins of a heatsink or near a heat source), you can apply local mesh controls to refine the mesh. This ensures accurate results in critical regions without unnecessarily increasing the total mesh count. The screenshot shows the "Mesh" section in the project manager, which is where you would configure these settings.
 
-3. Boundary Conditions and Solver Setup
+**3. Boundary Conditions and Solver Setup**
 Boundary conditions define the physical environment surrounding your model. They tell the solver how heat and fluid (air) interact with the system.
 
 Inlet/Outlet: If your system has forced convection, you define inlet and outlet boundary conditions to simulate the flow of air. This could be a fan blowing air into a chassis or air exiting through a vent.
@@ -415,7 +415,7 @@ Solver Settings: You configure the solver's settings, including the convergence 
 
 Warning Messages: The message log in your screenshot shows several warnings, such as "Boundary Source" and "Boundary Source overlap*". These are common and indicate that two or more boundary conditions or heat sources are very close or coincident. This can cause numerical instability. "Flipside_BGA1_die_underfill" suggests an issue with the geometry or meshing of a specific component, which could be the die underfill layer. These warnings should be addressed, often by adjusting the geometry or meshing settings to ensure a clean mesh and proper contact between components.
 
-4. Solving and Post-Processing
+**4. Solving and Post-Processing**
 Once the model is fully defined and the mesh is generated, you run the simulation. The solver iteratively calculates the temperature and fluid flow fields until the solution converges.
 
 Solving: The solver computes the temperature distribution throughout your model and the airflow patterns. The progress of the solution is shown in the "Progress" window.
@@ -424,7 +424,7 @@ Results Visualization: After the simulation is complete, you can visualize the r
 
 Reports and Plots: Ansys Icepak allows you to generate various reports and plots to analyze your results quantitatively. This includes tables of component temperatures, fan flow rates, and pressure drops. You can also create cut planes and isosurfaces to visualize the temperature and flow fields inside the model.
 
-Detailed Steps are as follows,
+**Detailed Steps are as follows,**
 <img width="1920" height="1080" alt="M3_01" src="https://github.com/user-attachments/assets/f0b6c91a-77d7-483e-ad18-fa77ec8a78a4" />
 <img width="1920" height="1080" alt="M3_02" src="https://github.com/user-attachments/assets/ea2b2832-592a-40dc-b495-d20057199a03" />
 <img width="1920" height="1080" alt="M3_03" src="https://github.com/user-attachments/assets/97c38a87-c66b-48fc-8672-b8305058801e" />
@@ -452,12 +452,12 @@ Detailed Steps are as follows,
 
 
 <img width="1920" height="1080" alt="Screenshot 2025-08-24 111330" src="https://github.com/user-attachments/assets/7ae2498c-6327-42c7-90fe-281c1ba96906" />
-Foundry Testing
+**Foundry Testing******
 Front End Manufacturing: This is the initial stage where the chips are fabricated on a silicon wafer. Quality checks are embedded throughout this process, from raw materials to lithography.
 
 Wafer Probe Test: After fabrication, the entire wafer is tested. A machine called a wafer prober uses tiny needles to make electrical contact with the test pads on each chip. The prober runs a series of electrical tests to identify defective chips. The result is a color-coded map, with green indicating good chips and red or blue indicating failures. This is a crucial early filter to avoid wasting resources on packaging bad chips.
 
-OSAT Testing
+**OSAT Testing**
 Wafer Sorting: The wafer is then sent to an OSAT (Outsourced Semiconductor Assembly and Test) company. The good chips identified in the previous step are then sorted and moved on to the packaging process.
 
 Package Manufacturing: The individual, good chips are packaged, which involves die attach, wire bonding, molding, and other steps.
@@ -472,11 +472,11 @@ Throughout all these stages, any failures are sent to Diagnosis and Failure Anal
 The Testing Process
 After a chip is packaged, it moves from the Processing Zone to a dedicated Testing Area. Here, the package is placed on a tray and then loaded into a test socket on a package board. This setup allows the testing machine to make electrical contact with the chip. The testing process typically involves three key steps:
 
-1. AOST (Assembly Open and Short Test): This is the first check, which is a simple electrical test. It verifies that all the pins or solder balls on the package are properly connected and that there are no accidental short circuits.
+**1. AOST (Assembly Open and Short Test):** This is the first check, which is a simple electrical test. It verifies that all the pins or solder balls on the package are properly connected and that there are no accidental short circuits.
 
-2. Burn-in: This step involves putting the chips under thermal and voltage stress for a set period. This process, which can take several hours, is designed to accelerate aging and force any chips with hidden defects or weak connections to fail early. It weeds out components that would otherwise fail soon after a device is sold.
+**2. Burn-in:** This step involves putting the chips under thermal and voltage stress for a set period. This process, which can take several hours, is designed to accelerate aging and force any chips with hidden defects or weak connections to fail early. It weeds out components that would otherwise fail soon after a device is sold.
 
-3. Final Test: The final test is a comprehensive, multi-part check. It involves running the chip at both cold and hot temperatures to ensure it performs correctly across its entire specified operating range. This test validates the chip's functional, parametric (e.g., speed and power), and reliability specifications.
+**3. Final Test:** The final test is a comprehensive, multi-part check. It involves running the chip at both cold and hot temperatures to ensure it performs correctly across its entire specified operating range. This test validates the chip's functional, parametric (e.g., speed and power), and reliability specifications.
 
 These tests ensure that the packaged chip is not only functional but also reliable and durable enough to withstand the demands of its intended application.
 
@@ -520,7 +520,7 @@ Useful Life: The long period of stable, low, and random failures.
 
 Wear Out: The final period where the failure rate increases as the chip's components begin to wear out.
 
-Process and Defects
+**Process and Defects**
 During a burn-in test, packaged chips are loaded onto specialized Burn-in Boards, which are then placed into a high-temperature oven or a Burn-in System. By applying high voltage and heat, the test accelerates the chip's lifespan, revealing defects like:
 
 Dielectric failures: Breakdown of insulating layers.
@@ -535,20 +535,20 @@ While burn-in improves the product's reliability by removing weak components, it
 
 Final Test stage for a packaged semiconductor chip. This is the last and most critical test before the product is shipped to a customer. Its main objective is to perform a temperature corner test to ensure the packaged product meets all its specifications, especially at the extremes of its operating temperature range.
 
-How Final Test Works
+**How Final Test Works**
 Chips are loaded into a specialized machine called an ATE (Automatic Test Equipment) with a Handler. The handler is a robotic arm that automatically moves chips from trays into the test fixture, where the actual testing takes place. This process is fully automated to ensure high speed and accuracy.
 
 Hot Test: Chips are heated to their maximum specified operating temperature and then electrically tested. This verifies that the chip still functions correctly when it gets hot, which is crucial for high-power chips or those used in high-temperature environments like a car engine.
 
 Cold Test: Chips are cooled down to their minimum specified operating temperature and electrically tested again. This ensures the chip works in cold conditions, such as during startup in a cold climate.
 
-Why It's Called a "Corner Test"
+**Why It's Called a "Corner Test"**
 A corner test evaluates a product at the extreme "corners" of its operating conditions, not just at room temperature. The specifications table from the LM741 OpAmp datasheet shows these corners, with min and max ratings for operating temperature, power, and voltage. By testing at these extreme temperatures, manufacturers can guarantee the chip's reliability across its entire specified range.
 <img width="1920" height="1080" alt="Screenshot 2025-08-24 212827" src="https://github.com/user-attachments/assets/7747c58e-5f0d-4d1a-952e-0babd269bb33" />
 
 The image provides a summary of Automatic Test Equipment (ATE) and the different categories of tests performed on semiconductor chips.
 
-Automatic Test Equipment (ATE)
+**Automatic Test Equipment (ATE)**
 An ATE is a computerized machine used to automatically test a chip, known as the Device Under Test (DUT). It sends a series of electrical signals, known as automatic test pattern generation (ATPG), to the DUT and measures the chip's response to quickly find any faults. This automation is crucial for mass production, as it can test thousands of chips in a short amount of time.
 The image also shows a modern ATE system setup with a COBOT (Collaborative Robot) and a Handler. The handler is a robotic arm that automatically loads and unloads the chips into the test socket, while the COBOT helps with the handling of these trays or components, increasing the efficiency of the testing process.
 
@@ -601,7 +601,7 @@ Final Inspection: This step ensures accurate labeling processes and confirms tha
 
 Packing & Shipping:  This step places the chips into their final packaging for shipment to customers.
 
-System Level Testing (SLT)
+**System Level Testing (SLT)**
 System Level Testing reproduces actual operating conditions for Integrated Circuits (ICs) by checking how each device performs while running real software or firmware, mimicking the real-world conditions in which it would be deployed. 
 There are several functional segments of SLT including initial packaging under some cleanroom controls and thorough functional validation. 
 Some areas of focus include Assembly Open and Short Test (AOST), which tests for open and short circuits on the package boards and is performed with test sockets included.
@@ -635,7 +635,7 @@ ESD & Latch-Up Test: Testing for protection against electrostatic discharge and 
 <img width="1920" height="1080" alt="Screenshot 2025-08-24 234022" src="https://github.com/user-attachments/assets/b2339141-41cd-45f8-92a2-e42bd3d706f3" />
 
 
-Detailed Procedure is given below,
+**Detailed Procedure is given below,**
 <img width="1920" height="1080" alt="M5_01" src="https://github.com/user-attachments/assets/b0907308-7ca0-491c-b763-bc882d5a40d3" />
 
  <img width="1920" height="1080" alt="M5_02" src="https://github.com/user-attachments/assets/67a9eb73-1a61-4929-83a9-da2357e2727f" />
@@ -676,7 +676,7 @@ Detailed Procedure is given below,
 
 <img width="1920" height="1080" alt="M5_20" src="https://github.com/user-attachments/assets/83911f0d-afc5-4787-91b3-64e8f678e6e7" />
 
-The Steps to Create a 3D Model
+**The Steps to Create a 3D Model**
 Define the Project: First, you open a new project in a software like Ansys Electronics Desktop. You set up the basic parameters, such as the units of measurement (e.g., millimeters or micrometers).
 
 Model the Layers: The package is built layer by layer, from the bottom up. You start with the largest component, the substrate (also called the carrier or laminate). You draw its shape (a rectangle in this case) and define its material properties.
