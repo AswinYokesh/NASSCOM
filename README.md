@@ -1,6 +1,20 @@
  **NASSCOM**
 
+This repository presents key takeaways from the 10-day Semiconductor Packaging – Fundamentals of Design and Testing workshop, hosted by VSD Corp. Pvt. Ltd. from August 15–27, 2025.
 
+The program provides a comprehensive, end-to-end overview of the semiconductor packaging process. It begins with the fundamental concepts and historical evolution of packaging technologies before moving to advanced 2.5D and 3D integration strategies. Participants gain hands-on experience with:
+
+**Advanced interconnects
+
+Redistribution layers (RDLs)
+
+Interposer design
+
+Assembly stages
+
+Reliability assessment techniques**
+
+The workshop concludes with practical sessions on thermal simulation, package modeling, and design using ANSYS Electronics Desktop.
 **Semicondutor Packaging and Testing**
 
 
